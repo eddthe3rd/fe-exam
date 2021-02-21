@@ -1,0 +1,9 @@
+h3 {
+	&.bulleted {
+		padding: 5px 10px 5px 20px;
+		background: url('../img/bullet.png') no-repeat 8px center;
+	}
+}
+.bg-gradient-red {
+	@include red-gradient;
+}

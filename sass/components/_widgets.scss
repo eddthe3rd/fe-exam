@@ -1,0 +1,34 @@
+.video-list {
+	
+	h4 {
+		color: $tertiary;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	p {
+		color: $white;
+	}
+	a {
+		color: $yellow;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.video-list-item {
+		padding: 15px 5px 5px;
+		border-top: 1px solid $flint;
+	}
+	.video-list-context {
+		padding: 0 10px;
+	}
+}
+.featured-video {
+	background: $flint;
+	padding: 20px;
+	a {
+		color: $yellow;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

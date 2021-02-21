@@ -1,0 +1,37 @@
+.nav {
+	@include red-gradient;
+	min-height: 50px;
+	.nav-link {
+		color: $white;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.col-md {
+			position: relative;
+			&:after {
+				content: '';
+				position: absolute;
+				height: 17px;
+				width: 1px;
+				background-color: $white;
+				right: 0;
+				top: 50%;
+				transform: translateY(-50%);
+
+			}
+			&:last-child {
+				&:after {
+					content: none;
+				}
+			}
+		}
+}
+.pos-f-t {
+	a.nav-link {
+		color: $white;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

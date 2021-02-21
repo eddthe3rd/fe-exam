@@ -1,0 +1,219 @@
+body {
+  background: black;
+  font-family: "Tahoma", Arial, sans;
+  font-size: 12px; }
+
+h1, h2, h3, h4 {
+  font-family: Arial, sans; }
+
+h2 {
+  text-transform: capitalize; }
+
+.splash-img {
+  position: relative; }
+  .splash-img .logo-title {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    background: yellow;
+    background: linear-gradient(90deg, yellow 0%, rgba(255, 255, 0, 0) 100%); }
+    @media (min-width: 768px) {
+      .splash-img .logo-title {
+        top: 13px;
+        left: 125px;
+        bottom: auto;
+        right: auto;
+        background: none; } }
+    .splash-img .logo-title h1 {
+      text-transform: uppercase;
+      font-size: 20px; }
+      @media (min-width: 960px) {
+        .splash-img .logo-title h1 {
+          font-size: 31px; } }
+    .splash-img .logo-title h2 {
+      font-family: "Tahoma", Arial, sans;
+      font-size: 12px; }
+  .splash-img h1, .splash-img h2 {
+    color: black; }
+
+.nav {
+  background: #990100;
+  background: linear-gradient(0deg, #990100 0%, #ff1717 100%);
+  min-height: 50px; }
+  .nav .nav-link {
+    color: white; }
+    .nav .nav-link:hover {
+      text-decoration: underline; }
+  .nav .col-md {
+    position: relative; }
+    .nav .col-md:after {
+      content: '';
+      position: absolute;
+      height: 17px;
+      width: 1px;
+      background-color: white;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%); }
+    .nav .col-md:last-child:after {
+      content: none; }
+
+.pos-f-t a.nav-link {
+  color: white; }
+  .pos-f-t a.nav-link:hover {
+    text-decoration: underline; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 960px; } }
+
+.casinos h2 {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans;
+  min-height: 31px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  margin-bottom: 0.7rem; }
+  .casinos h2.orange {
+    background: #ff8e04; }
+  .casinos h2.green {
+    background: #92a609; }
+  .casinos h2.magenta {
+    background: #bb0154; }
+  .casinos h2.cyan {
+    background: #0197b8; }
+
+.casinos .list-inline {
+  margin-top: 0.8rem;
+  margin-bottom: 0; }
+
+.casinos .list-inline-item {
+  padding-left: 1.5rem;
+  background: url("../img/star-bult.jpg") no-repeat left center; }
+  .casinos .list-inline-item a {
+    color: #FDFD67; }
+
+.casinos div[class*="col-"] {
+  padding-left: 0;
+  padding-right: 0; }
+
+.casinos .casino-item {
+  padding: 0.8rem 0.5rem;
+  border-bottom: 1px solid #212121; }
+
+ul.bulleted a {
+  padding: 7px 17px 7px 40px;
+  background: url("../img/arrow-bult.jpg") no-repeat 12px center; }
+
+ul.list-inline.bulleted a {
+  padding: 7px 15px 7px 26px;
+  background: url("../img/bullet.png") no-repeat 8px center; }
+
+.main {
+  padding: 15px 0; }
+  .main h2 {
+    color: #FF9900;
+    font-size: 20px; }
+  .main h3 {
+    font-size: 17px;
+    color: white;
+    font-weight: bold; }
+
+.article-list {
+  padding: 10px; }
+
+.article-list-item {
+  background: #212121;
+  color: white;
+  padding: 10px;
+  margin: 15px 0px; }
+  .article-list-item a {
+    color: #FFFF00; }
+    .article-list-item a:hover {
+      text-decoration: underline; }
+
+.article-context {
+  padding: 0 5px; }
+
+.welcome {
+  margin: 0 0 0 10px;
+  border-radius: 0;
+  padding: 15px;
+  background: #212121;
+  color: white; }
+
+.sidebar-widget {
+  margin: 0 8px 0 0; }
+  .sidebar-widget h2 {
+    font-family: Arial, sans;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: #990100;
+    background: linear-gradient(0deg, #be0c03 0%, #560501 100%);
+    max-height: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    padding-left: 1.2rem;
+    margin: 0 0 0.5rem; }
+  .sidebar-widget li {
+    border-bottom: 1px solid #212121; }
+    .sidebar-widget li:last-child {
+      border: 0; }
+  .sidebar-widget a {
+    display: block;
+    padding: 7px;
+    color: white; }
+    .sidebar-widget a:hover {
+      color: #FFCC00;
+      text-decoration: none; }
+
+.copyright {
+  color: white; }
+  .copyright a {
+    color: #AEEB6D; }
+    .copyright a:hover {
+      text-decoration: underline; }
+
+h3.bulleted {
+  padding: 5px 10px 5px 20px;
+  background: url("../img/bullet.png") no-repeat 8px center; }
+
+.bg-gradient-red {
+  background: #990100;
+  background: linear-gradient(0deg, #990100 0%, #ff1717 100%); }
+
+.video-list h4 {
+  color: #FFCC00;
+  font-size: 12px;
+  font-weight: bold; }
+
+.video-list p {
+  color: white; }
+
+.video-list a {
+  color: #FFFF00; }
+  .video-list a:hover {
+    text-decoration: none; }
+
+.video-list .video-list-item {
+  padding: 15px 5px 5px;
+  border-top: 1px solid #212121; }
+
+.video-list .video-list-context {
+  padding: 0 10px; }
+
+.featured-video {
+  background: #212121;
+  padding: 20px; }
+  .featured-video a {
+    color: #FFFF00; }
+    .featured-video a:hover {
+      text-decoration: underline; }

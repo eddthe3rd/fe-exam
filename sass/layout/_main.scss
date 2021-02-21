@@ -1,0 +1,107 @@
+
+@include tablet-up {
+	.container {
+		width: 960px;
+	}
+}
+.casinos {
+	h2 {
+		color: $white;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: $arial;
+		min-height: 31px;
+		display: flex;
+		align-items: center;
+		padding-left: 15px;
+		margin-bottom: 0.7rem;
+		&.orange {
+			background: $orange;
+		}
+		&.green {
+			background: $green;
+		}
+		&.magenta {
+			background: $magenta;
+		}
+		&.cyan {
+			background: $cyan;
+		}
+	}
+	.list-inline {
+		margin-top: 0.8rem;
+		margin-bottom: 0;
+	}
+	.list-inline-item {
+		padding-left: 1.5rem;
+		background: url('../img/star-bult.jpg') no-repeat left center;
+		a {
+			color: $primary;
+		}
+	}
+	div[class*="col-"] {
+		padding-left: 0;
+		padding-right: 0;
+		
+	}
+	.casino-item {
+		padding: 0.8rem 0.5rem;
+		border-bottom: 1px solid $flint;
+	}
+}
+
+ul {
+	&.bulleted {
+		a {
+			padding: 7px 17px 7px 40px;
+			background: url('../img/arrow-bult.jpg') no-repeat 12px center;
+		}
+	}
+	&.list-inline {
+		&.bulleted {
+			a {
+				padding: 7px 15px 7px 26px;
+    			background: url('../img/bullet.png') no-repeat 8px center;
+			}
+		}
+	}
+}
+.main {
+	padding: 15px 0;
+	h2 {
+		color: $secondary;
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 17px;
+		color: $white;
+		font-weight: bold;
+	}
+
+}
+.article-list {
+	padding: 10px;
+}
+.article-list-item {
+	background: $flint;
+	color: $white;
+	padding: 10px;
+	margin:15px 0px;
+	a {
+		color: $yellow;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+.article-context {
+	padding: 0 5px;
+}
+
+.welcome {
+	margin: 0 0 0 10px;
+	border-radius: 0;
+	padding: 15px;
+	background: $flint;
+	color: $white;
+}

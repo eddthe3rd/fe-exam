@@ -1,0 +1,29 @@
+@mixin red-gradient {
+	background: rgb(153,1,0);
+	background: linear-gradient(0deg, rgba($dark-red,1) 0%, rgba($red,1) 100%);
+}
+@mixin invert-red-gradient {
+	background: rgb(153,1,0);
+	background: linear-gradient(0deg, rgba($brick-red,1) 0%, rgba($darker-red,1) 100%);
+}
+@mixin yellow-gradient {
+	background: rgb(255,255,0);
+background: linear-gradient(90deg, rgba(255,255,0,1) 0%, rgba(255,255,0,0) 100%);
+}
+@mixin tablet {
+	@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+		@content;
+	}
+}
+
+@mixin tablet-up {
+	@media (min-width: #{$tablet-width}) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: #{$desktop-width}) {
+		@content;
+	}
+}

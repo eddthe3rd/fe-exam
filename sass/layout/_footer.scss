@@ -1,0 +1,9 @@
+.copyright {
+	color: $white;
+	a {
+		color: $yellowgreen;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
